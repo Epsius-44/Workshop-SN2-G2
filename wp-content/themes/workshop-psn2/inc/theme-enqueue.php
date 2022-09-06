@@ -6,6 +6,7 @@
 function workshop_psn2_register_styles()
 {
     wp_enqueue_style('workshop-psn2-app-css', get_template_directory_uri() . '/css/styles.css', array(), wp_get_theme()->get('Version'));
+    wp_enqueue_style('fontawsome-all-css', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css', array(), wp_get_theme()->get('Version'));
 }
 
 add_action('wp_enqueue_scripts', 'workshop_psn2_register_styles');
