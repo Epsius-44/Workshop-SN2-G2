@@ -14,11 +14,16 @@ function workshop_psn2_theme_support()
 
     // Implémente les couleurs du thème dans l'éditeur
     add_theme_support('editor-color-palette', array(
-        /* array(
-            'name' => __('Bleu', 'workshop-psn2-bleu'),
-            'slug' => 'bleu',
-            'color' => '#0014FF',
-        ),*/
+        array(
+            'name' => __('gris', 'workshop-psn2-gris'),
+            'slug' => 'gris',
+            'color' => '#373737',
+        ),
+        array(
+            'name' => __('orange', 'workshop-psn2-orande'),
+            'slug' => 'orange',
+            'color' => '#D68C29',
+        )
     ));
 
     // Implémente le support du titre de la page par wordpress
