@@ -23,6 +23,16 @@ function workshop_psn2_theme_support()
             'name' => __('orange', 'workshop-psn2-orande'),
             'slug' => 'orange',
             'color' => '#D68C29',
+        ),
+        array(
+            'name' => __('blanc', 'workshop-psn2-blanc'),
+            'slug' => 'blanc',
+            'color' => '#F6F6F6'
+        ),
+        array(
+            'name' => __('noir', 'workshop-psn2-noir'),
+            'slug' => 'noir',
+            'color' => '#232323'
         )
     ));
 
