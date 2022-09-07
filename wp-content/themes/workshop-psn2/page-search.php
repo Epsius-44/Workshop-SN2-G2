@@ -1,9 +1,4 @@
 <?php
-
-/*
- * Template Name: Page quentin_k
- */
-
 get_header(); ?>
 
 <div class="container-search-result">

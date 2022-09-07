@@ -7,7 +7,7 @@ function workshop_psn2_menus()
 {
 
     $locations = array(
-        // 'primary' => __('Menu principal', 'workshop-psn2'),
+        'navbar' => __('Menu principal (navbar)', 'workshop-psn2'),
     );
 
     register_nav_menus($locations);
