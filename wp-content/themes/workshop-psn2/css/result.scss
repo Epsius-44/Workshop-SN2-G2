@@ -50,8 +50,10 @@ body{
 }
 
 .button-search{
+  padding: 0 0.6rem 0 0.6rem;
   text-align: center;
-  background-color: transparent;
+  transition: all 0.4s ease-in-out;
+  background-color: $workshop-psn2-orange;
   display: table-cell;
   vertical-align: middle;
   margin-right: 0;
@@ -61,6 +63,12 @@ body{
   z-index:4;
   color: $workshop-psn2-blanc;
 }
+
+.button-search:hover{
+    background-color: $workshop-psn2-blanc;
+    color: $workshop-psn2-orange;
+}
+
 .input-search:hover{
   width: 12rem;
 }
@@ -78,12 +86,21 @@ body{
   background-color: $workshop-psn2-blanc;
 }
 
-img{
+.img-result-article{
   max-width: 100%;
   max-height: 100%;
   display: block;
   margin: auto;
   border-radius: 2rem;
+}
+
+.link-article{
+  color: $workshop-psn2-noir;
+  transition: color 0.2s ease-in-out;
+}
+
+.link-article:hover{
+  color: $workshop-psn2-orange;
 }
 
 h2{
@@ -162,10 +179,7 @@ h2{
 
 .article{
   padding: 0.5rem 1rem;
-  h3{
-    color: initial;
   }
-}
 
 .separator{
   border-top: $workshop-psn2-noir solid 0.1rem;
