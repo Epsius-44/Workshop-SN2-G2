@@ -4,7 +4,7 @@
  */
 get_header();
 ?>
-    <div class="container">
+    <div class="container-search-result">
         <section class="search-section">
             <div class="form-container">
                 <form action="" class="form-search">
@@ -78,6 +78,9 @@ get_header();
                     </div>
                     <div class="source-result">
                         <span>Score de confiance de la source: ?/4</span>
+                    </div>
+                    <div class="source-commentary-result">
+                        <span>Commentaire sur la source: Yolo</span>
                     </div>
                 </div>
                 <div class="container-result">
