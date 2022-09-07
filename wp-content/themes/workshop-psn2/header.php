@@ -11,3 +11,40 @@
     const siteURL = "<?php echo get_site_url() ?>";
 </script>
 <?php wp_body_open(); ?>
+
+<header id="header">
+
+    <div class="logo-Fake-News-Academy">
+        <a href="index.php"><img id="logo"
+                         width="500"
+                         height="150"
+                         src="<?php echo get_template_directory_uri() . '/assets/images/logo.png' ?>"
+                         alt="Fake News Academy"></a>
+    </div>
+
+    <nav class="navbar">
+
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="text-hidden">Conseils</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="text-hidden">Articles</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <span class="text-hidden">Décodeur</span>
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>

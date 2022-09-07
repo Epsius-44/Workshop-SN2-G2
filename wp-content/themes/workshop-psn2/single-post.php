@@ -3,7 +3,8 @@
     <main>
         <section id="page-article">
             <div class="container">
-                <img src="https://via.placeholder.com/900x300/A9A6A5" alt="image illustrant l'article">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/pokora.png' ?>"
+                     alt="image illustrant l'article" id="img-article">
                 <?php if (have_posts()) :
                     while (have_posts()) : the_post(); ?>
                         <h1><?php the_title(); ?></h1>
