@@ -6,6 +6,12 @@
 .text-404{
   font-weight: bold;
   font-size: 1.5rem;
+  color: $workshop-psn2-noir;
+  transition: color 0.3s ease-in-out;
+
+  a:hover{
+    color: $workshop-psn2-orange;
+  }
 }
 
 .center{
@@ -24,4 +30,28 @@
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.rainbow {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+.rainbow_text_animated {
+  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
 }

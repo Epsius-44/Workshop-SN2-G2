@@ -60,11 +60,14 @@ body{
   z-index:4;
   color: $workshop-psn2-blanc;
 }
-
+input:hover{
+  width: 12rem;
+}
 input:focus {
   outline:  none;
   width: 100%;
 }
+
 
 input{
   transition: width 0.4s ease-in-out;
@@ -137,7 +140,7 @@ h2{
 .result-section{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .img-result{
@@ -145,10 +148,10 @@ h2{
 }
 
 .result-fake{
-  width: 50%;
+  width: 100%;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   .img-result{
     width: 50%;
   }

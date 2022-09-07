@@ -9,7 +9,6 @@ get_header();
             <div class="form-container">
                 <form action="" class="form-search">
                     <div class="input-container">
-
                         <input class="input-search" type="text" placeholder="Vérifier un article...">
                         <button class="button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
@@ -17,68 +16,15 @@ get_header();
             </div>
         </section>
         <section class="result-section">
-            <div class="img-result">
-                <div class="container-result">
-                    <h2>Articles avec une image similaire</h2>
-                    <div class="container-card-img">
-                        <div class="card-img">
-                            <a class="article-img-link" href="" target="_blank" rel="noopener">
-                                <div class="image-result"><img
-                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
-                                            alt=""></div>
-                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
-                                        danzjdanzld</h3></div>                            </a>
-
-                            <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
-                                        source</a></div>
-                                <div class="img-date"><span class="date">10/05/2021</span></div>
-                        </div>
-                        <div class="card-img">
-                            <a class="article-img-link" href="" target="_blank" rel="noopener">
-                                <div class="image-result"><img
-                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
-                                            alt=""></div>
-                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
-                                        danzjdanzld</h3></div>                            </a>
-
-                            <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
-                                        source</a></div>
-                                <div class="img-date"><span class="date">10/05/2021</span></div>
-                        </div>
-                        <div class="card-img">
-                            <a class="article-img-link" href="" target="_blank" rel="noopener">
-                                <div class="image-result"><img
-                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
-                                            alt=""></div>
-                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
-                                        danzjdanzld</h3></div>
-                                <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
-                                        source</a></div>                            </a>
-
-                            <div class="img-date"><span class="date">10/05/2021</span></div>
-                        </div>
-                        <div class="card-img">
-                            <a class="article-img-link" href="" target="_blank" rel="noopener">
-                                <div class="image-result"><img
-                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
-                                            alt=""></div>
-                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
-                                        danzjdanzld</h3></div>                            </a>
-
-                            <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
-                                        source</a></div>
-                                <div class="img-date"><span class="date">10/05/2021</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="result-fake">
                 <div class="container-result">
                     <div class="grammar-result">
                         <span>Orthographe: 45 / 100</span>
                     </div>
                     <div class="source-result">
-                        <span>Score de confiance de la source: ?/4</span>
+                        <span>Score de confiance de la source: </span>
+                        <span class="">?</span>
+                        <span>/4</span>
                     </div>
                     <div class="source-commentary-result">
                         <span>Commentaire sur la source: Yolo</span>
@@ -122,6 +68,61 @@ get_header();
                                 <span> - </span>
                                 <span>15/02/2020</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="img-result">
+                <div class="container-result">
+                    <h2>Articles avec une image similaire</h2>
+                    <div class="container-card-img">
+                        <div class="card-img">
+                            <a class="article-img-link" href="" target="_blank" rel="noopener">
+                                <div class="image-result"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
+                                            alt=""></div>
+                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
+                                        danzjdanzld</h3></div>                            </a>
+
+                            <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
+                                    source</a></div>
+                            <div class="img-date"><span class="date">10/05/2021</span></div>
+                        </div>
+                        <div class="card-img">
+                            <a class="article-img-link" href="" target="_blank" rel="noopener">
+                                <div class="image-result"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
+                                            alt=""></div>
+                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
+                                        danzjdanzld</h3></div>                            </a>
+
+                            <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
+                                    source</a></div>
+                            <div class="img-date"><span class="date">10/05/2021</span></div>
+                        </div>
+                        <div class="card-img">
+                            <a class="article-img-link" href="" target="_blank" rel="noopener">
+                                <div class="image-result"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
+                                            alt=""></div>
+                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
+                                        danzjdanzld</h3></div>
+                                <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
+                                        source</a></div>                            </a>
+
+                            <div class="img-date"><span class="date">10/05/2021</span></div>
+                        </div>
+                        <div class="card-img">
+                            <a class="article-img-link" href="" target="_blank" rel="noopener">
+                                <div class="image-result"><img
+                                            src="<?php echo get_template_directory_uri() . '/assets/images/random.jpg' ?>"
+                                            alt=""></div>
+                                <div class="img-title"><h3 class="result-image-title">Superbe titreanjzdkjaznbdkjabzdaj
+                                        danzjdanzld</h3></div>                            </a>
+
+                            <div class="img-source-link"><a href="" target="_blank" rel="noopener">lien de la
+                                    source</a></div>
+                            <div class="img-date"><span class="date">10/05/2021</span></div>
                         </div>
                     </div>
                 </div>
