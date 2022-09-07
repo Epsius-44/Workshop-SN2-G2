@@ -12,7 +12,7 @@ get_header(); ?>
             <form action="" class="form-search">
                 <div class="input-container">
                     <input class="full-input-search" type="text" placeholder="Vérifier un article...">
-                    <button class="button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="full-button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
             </form>
         </div>

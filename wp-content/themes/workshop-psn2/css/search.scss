@@ -12,6 +12,21 @@
   right: 0;
 }
 
+.full-button-search{
+  padding:0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: transparent;
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 0;
+  border-radius: 0 2rem 2rem 0;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  z-index:4;
+  color: $workshop-psn2-blanc;
+}
+
 .form-center{
   margin: auto;
   width: 100%;
