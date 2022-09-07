@@ -38,6 +38,7 @@ body{
 }
 
 .input-search{
+  transition: width 0.4s ease-in-out;
   border-radius: 2rem 0 0 2rem;
   text-align: center;
   background-color: $workshop-psn2-blanc;
@@ -60,17 +61,12 @@ body{
   z-index:4;
   color: $workshop-psn2-blanc;
 }
-.input-search input:hover{
+.input-search:hover{
   width: 12rem;
 }
-.input-search input:focus {
+.input-search:focus {
   outline:  none;
   width: 100%;
-}
-
-
-.input-search input{
-  transition: width 0.4s ease-in-out;
 }
 
 .card-img{
