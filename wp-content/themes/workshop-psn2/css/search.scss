@@ -1,0 +1,38 @@
+.full-page-search {
+  background-color: #D68C29;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.form-center{
+  margin: auto;
+  width: 100%;
+}
+
+.full-input-search{
+  border-radius: 2rem 0 0 2rem;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+  border: none;
+  z-index: 5;
+  text-align: center;
+  height: 5rem;
+  width: 30rem;
+  font-size: 2.5rem;
+  transition: width 0.4s ease-in-out;
+}
+
+.full-input-search:hover{
+  width: 50rem;
+}
+.full-input-search:focus {
+  outline:  none;
+  width: 100%;
+}

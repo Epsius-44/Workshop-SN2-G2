@@ -6,16 +6,17 @@
 
 get_header(); ?>
 
-    <main>
-        <div class="search-group">
-            <form action="?" class="search">
-                <label for="url">URL : </label>
-                <input type="text" value="https://" name="url" required>
-                <button>
-                    <span class="fa-solid fa-magnifying-glass"></span>
-                </button>
+<div class="container-search-result">
+    <section class="search-section full-page-search">
+        <div class="form-container form-center">
+            <form action="" class="form-search">
+                <div class="input-container">
+                    <input class="full-input-search" type="text" placeholder="Vérifier un article...">
+                    <button class="button-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
             </form>
         </div>
-    </main>
+    </section>
+</div>
 
 <?php get_footer(); ?>
