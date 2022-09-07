@@ -60,16 +60,16 @@ body{
   z-index:4;
   color: $workshop-psn2-blanc;
 }
-input:hover{
+.input-search input:hover{
   width: 12rem;
 }
-input:focus {
+.input-search input:focus {
   outline:  none;
   width: 100%;
 }
 
 
-input{
+.input-search input{
   transition: width 0.4s ease-in-out;
 }
 
