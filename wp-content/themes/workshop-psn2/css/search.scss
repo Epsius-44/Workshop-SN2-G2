@@ -5,11 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   display: flex;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  height: calc(100vh - 70px - 2rem - 5.1rem);
+  min-height: min-content;
+  overflow: auto;
 }
 
 .full-button-search{
