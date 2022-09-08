@@ -1,21 +1,55 @@
 a {
-    font-family: 'Libre Baskerville', serif;
-} 
+  font-family: 'Libre Baskerville', serif;
+}
 
-h1{
-    font-family: 'New Century Schoolbook', cursive;
-    color: white;
+h1, h2 {
+  text-align: center;
+  font-family: 'New Century Schoolbook', cursive;
 }
+
+.container-front-page {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .bienvenue {
-    padding : 100px auto;
-    background-color: #E1C699;
-    color: #FFF;
+  padding: 8rem;
+  background-color: #E1C699;
+  color: $workshop-psn2-blanc;
 }
-.exemple{
-    background-color: #FFF;
-    color: #E1C699;
-    margin-bottom: 5rem;
+
+.bienvenue h1 {
+  color: $workshop-psn2-blanc;
 }
-.bouton{
-    background-color:#E1C699;
+
+.exemple-fake-news {
+  background-color: #FFF;
+  color: #E1C699;
+  margin-bottom: 5rem;
+}
+
+.exemple-fake-news h2 {
+  color: #E1C699;
+}
+
+.card-fake-news {
+  text-align: center;
+}
+
+.exemple-fake-news img {
+  width: 30%;
+  padding: 1rem 5rem;
+}
+
+.list-bouton {
+  padding: 4rem;
+  background-color: #E1C699;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
