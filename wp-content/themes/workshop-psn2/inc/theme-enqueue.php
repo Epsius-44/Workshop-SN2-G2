@@ -31,7 +31,7 @@ function workshop_psn2_wider_sidebar()
     </style>';
 }
 
-add_action('admin_head', 'workshop-psn2_wider_sidebar');
+add_action('admin_head', 'workshop_psn2_wider_sidebar');
 
 /**
  * Enregistre et ajoute le JS

@@ -1,9 +1,6 @@
 <?php
-/*
- *  Template Name: Result search
- */
-get_header();
-?>
+get_header();?>
+
     <div class="container-search-result">
         <section class="search-section">
             <div class="form-container">

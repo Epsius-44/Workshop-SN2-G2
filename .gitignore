@@ -23,7 +23,8 @@
 
 /wp-content/languages/
 /wp-content/mu-plugins/
-/wp-content/plugins/
+/wp-content/plugins/*.php
+/wp-content/plugins/akismet
 /wp-content/themes/twentynineteen/
 /wp-content/themes/twentytwenty/
 /wp-content/themes/twentytwentyone/
