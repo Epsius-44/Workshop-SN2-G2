@@ -42,7 +42,7 @@ body{
   border-radius: 2rem 0 0 2rem;
   text-align: center;
   background-color: $workshop-psn2-blanc;
-  height: 2rem;
+  height: 2.7rem;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
   border: none;
   z-index: 5;
@@ -79,7 +79,7 @@ body{
 
 .card-img{
   max-width: 12rem;
-  border: $workshop-psn2-noir solid 0.1rem;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
   margin: 1rem;
   padding: 0.5rem;
   border-radius: 2rem;
