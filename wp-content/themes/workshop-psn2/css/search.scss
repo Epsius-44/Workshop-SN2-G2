@@ -5,14 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   display: flex;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  height: calc(100vh - 72px - 2rem - 5.2rem);
+  min-height: min-content;
+  overflow: auto;
 }
 
 .full-button-search{
+  transition: all 0.2s ease-in-out;
   padding:0.5rem;
   font-size: 1.5rem;
   text-align: center;
@@ -42,12 +41,18 @@
   width: 30rem;
   font-size: 2.5rem;
   transition: width 0.4s ease-in-out;
+  outline:  none;
 }
 
 .full-input-search:hover{
-  width: 50rem;
+  width: 38rem;
 }
 .full-input-search:focus {
-  outline:  none;
+  min-width: 38rem;
   width: 100%;
+}
+
+.full-button-search:hover{
+  background-color: $workshop-psn2-blanc;
+  color: $workshop-psn2-orange;
 }
