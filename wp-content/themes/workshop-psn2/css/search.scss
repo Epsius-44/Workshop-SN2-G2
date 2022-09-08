@@ -44,13 +44,15 @@
   outline:  none;
 }
 
-.full-input-search:hover{
-  width: 38rem;
+.full-input-container:hover {
+  .input-search {
+    width: 100%;
+  }
 }
-.full-input-search:focus {
-  min-width: 38rem;
+.full-input-search:focus{
   width: 100%;
 }
+
 
 .full-button-search:hover{
   background-color: $workshop-psn2-blanc;

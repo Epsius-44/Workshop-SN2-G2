@@ -47,6 +47,7 @@ body{
   border: none;
   z-index: 5;
   width: 10rem;
+  outline:  none;
 }
 
 .button-search{
@@ -69,13 +70,16 @@ body{
     color: $workshop-psn2-orange;
 }
 
-.input-search:hover{
-  width: 12rem;
+
+.input-container:hover {
+  .input-search {
+    width: 100%;
+  }
 }
-.input-search:focus {
-  outline:  none;
+.input-search:focus{
   width: 100%;
 }
+
 
 .card-img{
   max-width: 12rem;
