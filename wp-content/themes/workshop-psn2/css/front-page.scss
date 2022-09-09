@@ -1,5 +1,5 @@
 a {
-  font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h1, h2 {
@@ -17,7 +17,7 @@ h1, h2 {
 
 .bienvenue {
   padding: 8rem;
-  background-color: #E1C699;
+  background-color: $workshop-psn2-orange;
   color: $workshop-psn2-blanc;
 }
 
@@ -27,12 +27,12 @@ h1, h2 {
 
 .exemple-fake-news {
   background-color: #FFF;
-  color: #E1C699;
+  color: $workshop-psn2-orange;
   margin-bottom: 5rem;
 }
 
 .exemple-fake-news h2 {
-  color: #E1C699;
+  color: $workshop-psn2-orange;
 }
 
 .card-fake-news {
@@ -45,7 +45,6 @@ h1, h2 {
 }
 
 .list-bouton {
-  padding: 4rem;
   background-color: #E1C699;
   align-items: center;
   display: flex;
@@ -53,3 +52,39 @@ h1, h2 {
   flex-wrap: wrap;
   align-content: center;
 }
+
+.no-decoration{
+  text-decoration: none;
+}
+
+.no-decoration:hover{
+  .link{
+    color: #E1C699 ;
+    height: 11rem;
+    width: 11rem;
+    margin: 0.1rem;
+  }
+}
+
+.front-page-link{
+  margin: auto;
+  vertical-align: middle;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.link{
+  margin: 0.6rem;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  background-color: $workshop-psn2-noir;
+  color: $workshop-psn2-blanc;
+
+}
+

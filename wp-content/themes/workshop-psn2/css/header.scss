@@ -46,5 +46,11 @@
   align-content: center;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: $workshop-psn2-noir;
+  transition: color 0.3s ease-in-out;
+
+}
+
+.navbar ul li a:hover {
+color: $workshop-psn2-orange;
 }

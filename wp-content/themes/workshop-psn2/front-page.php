@@ -17,9 +17,22 @@
     </section>
 
     <section class="list-bouton">
-        <button type="button" class="btn btn-primary">Conseil</button>
-        <button type="button" class="btn btn-primary">Detecter</button>
-        <button type="button" class="btn btn-primary">Outils</button>
+        <a href="" class="no-decoration">
+            <div class="link" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url('<?php echo get_template_directory_uri().'/assets/images/conseil.jpg' ?>')">
+                <span class="front-page-link">Conseil</span>
+            </div>
+        </a>
+        <a href="" class="no-decoration">
+            <div class="link" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<?php echo get_template_directory_uri().'/assets/images/archive.jpg' ?>')">
+                <span class="front-page-link">Détecter</span>
+            </div>
+        </a>
+        <a href="<?php echo get_home_url().'/search'?>" class="no-decoration">
+            <div class="link" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<?php echo get_template_directory_uri().'/assets/images/outil.png' ?>')">
+            <span class="front-page-link">Outils</span>
+        </div>
+        </a>
+
     </section>
 
 <?php get_footer(); ?>
